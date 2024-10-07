@@ -1,0 +1,15 @@
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globais */
+* {
+  @apply box-border; 
+}
+
+html, body, #root {
+  @apply p-0 m-0 h-full; /* Remover padding e margin e garantir 100% de altura */
+}
+
+#root {
+  @apply min-h-screen flex; 
+}
